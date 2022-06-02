@@ -1,0 +1,32 @@
+PODS:
+  - BonMot (5.4.1)
+  - OneSignal (2.12.6)
+  - pop (1.0.12)
+  - SnapSDK/SCSDKCreativeKit (1.4.2)
+  - SwiftyStoreKit (0.15.0)
+
+DEPENDENCIES:
+  - BonMot
+  - OneSignal (< 3.0, >= 2.11.2)
+  - pop
+  - SnapSDK/SCSDKCreativeKit
+  - SwiftyStoreKit
+
+SPEC REPOS:
+  trunk:
+    - BonMot
+    - OneSignal
+    - pop
+    - SnapSDK
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  BonMot: aa82119ff2ffa184223d8a31c72aed84fbb009e0
+  OneSignal: a6df91542d1cf133b9dd19d89f2b533d8f2d3163
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SnapSDK: 40335ae82ff55d578b8be38fa2b098b1e6471866
+  SwiftyStoreKit: 033d06b6f87955405d3f844a18a7687c2438592a
+
+PODFILE CHECKSUM: 871e1ec8ad47cd18709a02e16957a8f1c38fa40f
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BonMot" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyStoreKit" "${PODS_CONFIGURATION_BUILD_DIR}/pop" "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework" "${PODS_ROOT}/SnapSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BonMot/BonMot.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/pop/pop.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/BonMot/BonMot.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/pop/pop.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/BonMot" -iframework "${PODS_ROOT}/OneSignal/iOS_SDK/OneSignalSDK/Framework" -iframework "${PODS_ROOT}/SnapSDK" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyStoreKit" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -framework "BonMot" -framework "CoreGraphics" -framework "OneSignal" -framework "SCSDKCoreKit" -framework "SCSDKCreativeKit" -framework "SwiftyStoreKit" -framework "SystemConfiguration" -framework "UIKit" -framework "UserNotifications" -framework "WebKit" -framework "pop"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES
